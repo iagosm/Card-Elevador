@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap');
+
+body{
+    background-color: #748DA6;
+    font-family: 'Raleway', sans-serif;
+}
+img{
+    width: 100%;
+    border-radius: 12px;
+    height: 214px;
+    object-fit: cover;
+}
+#container {
+max-width: 300px;
+ /* max-width: 360px  referente a largura do container */
+margin: 0 auto;
+ /* margin: 0 auto; para centralizar na tela a imagem/container */
+margin-top: 20vh;
+/* margin-top: 20vh; para adicionar um espaço vazio no container(20% of the view height) */
+
+}
+
+.card{
+    /* change background color */
+    background-color: white;
+    /* add border  */
+    border: 1px solid #9CB4CC;
+    /* add space between the border and the content */
+    padding: 8px;
+    border-radius: 12px;
+}
+.tag{
+    padding: 4px 8px; 
+    /* 4px seria pro butoon e 8px  para altura */
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #2C3639;
+    
+}
+.name{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+p{
+    font-size: 14px;
+    color: #2C3639;
+    line-height: 150%;
+}
+button{
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: 600;
+    color: #06283D;
+    background-color: #C4D7E0;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+/* O card_details é de importancia para mudar altura entre a foto e a tag */
+.card_details{
+    /* Serve para mudar altura entre a o card e a imagem */
+    padding: 16px 8px 8px 8px;
+}
+
+button:focus,
+button:hover{
+    background-color: #06283D;
+    color: aliceblue;
+}
